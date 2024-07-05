@@ -15,6 +15,4 @@ Follow the full tutorial here on
 [medium](https://baimamboukar.medium.com/deploy-static-websites-to-aws-s3-via-ci-cd-with-github-actions-faa8c7432a5f)
 
 
-- Public URL [AWS Hosted static website](http://aws-github-actions-web-hosting.s3-website-us-east-1.amazonaws.com/)
-
-@baimamboukar
+- Public URL [AWS Hosted static website](http://static-websites-with-github-actions-240705.s3-website-ap-northeast-1.amazonaws.com/)
