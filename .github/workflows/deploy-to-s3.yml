@@ -22,3 +22,7 @@ jobs:
       - name: Deploy to AWS S3
         run: |
           aws s3 sync . s3://static-websites-with-github-actions-240705 --delete
+
+      - name: Clear cache
+        run: |
+          aws cloudfront create-invalidation --distribution-id E2DHPULQM5XQ3E --paths "/*"
