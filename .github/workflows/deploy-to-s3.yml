@@ -21,4 +21,4 @@ jobs:
 
       - name: Deploy to AWS S3
         run: |
-          aws s3 sync . s3://aws-github-actions-web-hosting --delete
+          aws s3 sync . s3://static-websites-with-github-actions-240705 --delete
