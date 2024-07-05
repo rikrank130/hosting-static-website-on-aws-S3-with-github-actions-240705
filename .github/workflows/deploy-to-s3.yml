@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "*.html"
+      - "*.html" # ここはルート（何も指定ナシ）で記載
 jobs:
   deploy:
     runs-on: ubuntu-latest
